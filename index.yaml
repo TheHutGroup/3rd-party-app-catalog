@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  backstage:
+  - apiVersion: v2
+    appVersion: v0.1.1-alpha.23
+    created: "2022-06-08T05:37:21.961858635Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.6.3
+    description: A Helm chart for Backstage
+    digest: 00ff8e30fef6dca91b9547de868036934750fc21e6f1ed4a4ab2cafa503050bb
+    maintainers:
+    - email: martina@roadie.io
+      name: Martina Iglesias Fernández
+      url: https://roadie.io
+    - email: david@roadie.io
+      name: David Tuite
+      url: https://roadie.io
+    name: backstage
+    sources:
+    - https://github.com/backstage/backstage
+    - https://github.com/spotify/lighthouse-audit-service
+    type: application
+    urls:
+    - https://TheHutGroup.github.io/3rd-party-app-catalog/backstage-0.1.11.tgz
+    version: 0.1.11
+generated: "2022-06-08T05:37:21.955199813Z"
