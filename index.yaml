@@ -2,8 +2,23 @@ apiVersion: v1
 entries:
   backstage:
   - apiVersion: v2
+    created: "2022-06-22T05:15:32.210445184Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for Kubernetes
+    digest: ec43cab4db6166821b2e929c7ef12a14851558fbb36de3ad78405cadd56238ae
+    name: backstage
+    type: application
+    urls:
+    - https://TheHutGroup.github.io/3rd-party-app-catalog/backstage-0.1.18.tgz
+    version: 0.1.18
+  - apiVersion: v2
     appVersion: v0.1.1-alpha.23
-    created: "2022-06-08T12:47:45.37487315Z"
+    created: "2022-06-22T05:15:32.209113183Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -28,7 +43,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: v0.1.1-alpha.23
-    created: "2022-06-08T12:47:45.368881389Z"
+    created: "2022-06-22T05:15:32.20300628Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -53,7 +68,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: v0.1.1-alpha.23
-    created: "2022-06-08T12:47:45.361746078Z"
+    created: "2022-06-22T05:15:32.195520777Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -76,4 +91,4 @@ entries:
     urls:
     - https://TheHutGroup.github.io/3rd-party-app-catalog/backstage-0.1.11.tgz
     version: 0.1.11
-generated: "2022-06-08T12:47:45.354810875Z"
+generated: "2022-06-22T05:15:32.187050173Z"
