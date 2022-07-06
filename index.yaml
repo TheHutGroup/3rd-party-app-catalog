@@ -2,7 +2,22 @@ apiVersion: v1
 entries:
   backstage:
   - apiVersion: v2
-    created: "2022-07-06T05:59:54.328804715Z"
+    created: "2022-07-06T08:41:20.9067573Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for Kubernetes
+    digest: a2b577cedf4ddfc78055767e1f1f404df89b0351800a05e8faac89b5c0723304
+    name: backstage
+    type: application
+    urls:
+    - https://TheHutGroup.github.io/3rd-party-app-catalog/backstage-0.1.20.tgz
+    version: 0.1.20
+  - apiVersion: v2
+    created: "2022-07-06T08:41:20.904750788Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -17,7 +32,7 @@ entries:
     - https://TheHutGroup.github.io/3rd-party-app-catalog/backstage-0.1.19.tgz
     version: 0.1.19
   - apiVersion: v2
-    created: "2022-07-06T05:59:54.327043752Z"
+    created: "2022-07-06T08:41:20.902263973Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -33,7 +48,7 @@ entries:
     version: 0.1.18
   - apiVersion: v2
     appVersion: v0.1.1-alpha.23
-    created: "2022-07-06T05:59:54.325730005Z"
+    created: "2022-07-06T08:41:20.900763164Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -58,7 +73,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: v0.1.1-alpha.23
-    created: "2022-07-06T05:59:54.319792192Z"
+    created: "2022-07-06T08:41:20.893442421Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -83,7 +98,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: v0.1.1-alpha.23
-    created: "2022-07-06T05:59:54.312501431Z"
+    created: "2022-07-06T08:41:20.883433662Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -106,4 +121,4 @@ entries:
     urls:
     - https://TheHutGroup.github.io/3rd-party-app-catalog/backstage-0.1.11.tgz
     version: 0.1.11
-generated: "2022-07-06T05:59:54.305965497Z"
+generated: "2022-07-06T08:41:20.873951106Z"
