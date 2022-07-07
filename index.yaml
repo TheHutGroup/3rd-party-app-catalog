@@ -2,7 +2,22 @@ apiVersion: v1
 entries:
   backstage:
   - apiVersion: v2
-    created: "2022-07-06T08:41:20.9067573Z"
+    created: "2022-07-07T08:39:35.442291661Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: A Helm chart for Kubernetes
+    digest: 40e124fbc01999b45e35dc43210bd15383617921877643a0e8caaafbe8a48ab0
+    name: backstage
+    type: application
+    urls:
+    - https://TheHutGroup.github.io/3rd-party-app-catalog/backstage-0.1.21.tgz
+    version: 0.1.21
+  - apiVersion: v2
+    created: "2022-07-07T08:39:35.441076944Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -17,7 +32,7 @@ entries:
     - https://TheHutGroup.github.io/3rd-party-app-catalog/backstage-0.1.20.tgz
     version: 0.1.20
   - apiVersion: v2
-    created: "2022-07-06T08:41:20.904750788Z"
+    created: "2022-07-07T08:39:35.438369906Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -32,7 +47,7 @@ entries:
     - https://TheHutGroup.github.io/3rd-party-app-catalog/backstage-0.1.19.tgz
     version: 0.1.19
   - apiVersion: v2
-    created: "2022-07-06T08:41:20.902263973Z"
+    created: "2022-07-07T08:39:35.437108289Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -48,7 +63,7 @@ entries:
     version: 0.1.18
   - apiVersion: v2
     appVersion: v0.1.1-alpha.23
-    created: "2022-07-06T08:41:20.900763164Z"
+    created: "2022-07-07T08:39:35.435808071Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -73,7 +88,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: v0.1.1-alpha.23
-    created: "2022-07-06T08:41:20.893442421Z"
+    created: "2022-07-07T08:39:35.430094192Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -98,7 +113,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: v0.1.1-alpha.23
-    created: "2022-07-06T08:41:20.883433662Z"
+    created: "2022-07-07T08:39:35.421874778Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -121,4 +136,4 @@ entries:
     urls:
     - https://TheHutGroup.github.io/3rd-party-app-catalog/backstage-0.1.11.tgz
     version: 0.1.11
-generated: "2022-07-06T08:41:20.873951106Z"
+generated: "2022-07-07T08:39:35.413868867Z"
